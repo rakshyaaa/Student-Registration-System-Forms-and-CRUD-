@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>SRM</title>
+        <link rel="stylesheet" href = "public/css/style.css" type="text/css" >
+        <link rel= "stylesheet" href="public/css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <div class = "main">
+            <div class="head">             
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h3 class = "head_h1">Admin Panel</h3> 
+                    </div>
+                    
+                    <div class="col-sm-4">
+                        <a class="btn btn-primary" href="index.html">Back to Home Page</a> 
+                    </div>
+                </div>  
+                <hr>
+            </div>
+
+            <div class = "formSectionAdmin" >
+                <form id = "adminForm" name= "adminForm" action = "admin.php" method = "POST">
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="uid">Username</label>
+                            <input type="text" class="form-control" placeholder="Username" id="username" name="username">
+                        </div>
+                        </div>
+
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" name = "password" placeholder="Password"> 
+                        </div>
+                    </div>  
+                        
+                    <br>
+
+                    <a class="btn btn-primary" onclick="submitAdminForm()">Login</a>
+                </form>
+            </div>
+        </div>
+          
+        <script src="public/js/admin_script.js"></script>
+    </body>
+</html>

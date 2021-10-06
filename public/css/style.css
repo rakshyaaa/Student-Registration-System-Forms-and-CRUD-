@@ -1,0 +1,102 @@
+
+.main{
+    background-color: #e3e0f3;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+
+.head{
+    margin: 5% 10% 0% 10%;   
+    height: 15vh;
+    text-align: center;
+    color: #036fa0;
+}
+
+hr{
+    color: #1c2431 ;
+    height:2px;
+    border-width:0;
+}
+
+label{
+    color:#036fa0;
+    margin-top: 10px;
+}
+
+#srmForm{
+    margin-top: 1%;
+}
+
+.formSection{
+    margin:  0% 5% 5% 5% ; 
+    background-color:#80a3db;
+    border-radius: 20px;
+}
+
+.formSectionAdmin{
+    margin:  0% 15% 15% 15% ; 
+    background-color:#80a3db;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+form{
+    margin: 10%;
+    padding: 5%;
+}
+
+.check{
+    color: #494b64;
+}
+
+/* .form_inside{
+    display: flex;
+} */
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus{
+    background-color: #036fa0 !important;
+}
+
+#genderError{
+    color: red;
+    display: none;
+}
+
+
+@media screen and (min-width: 1000px) {
+    .formSection{
+        margin: 0% 15%;
+    }
+}
+
+/*for data display*/
+.tableSection{
+    margin:  0% 5% 5% 5% ; 
+    background-color:#80a3db;
+    border-radius: 20px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+
+} 
